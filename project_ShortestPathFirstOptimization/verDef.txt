@@ -1,0 +1,24 @@
+connectionMatrix used capacity degeri guncellendi
+asilan capacity hesaplandi
+network icin cost hesaplandi.
+
+save load  global var kullanýlarak cozuldu....
+
+p8 e ek olarak eger iki tane esit costlu route varsa bulundu ve print edildi
+ancak henuz demand bu iki route icin paylastirilmadi....
+
+p9 a ek olarak demandler esit costlu routelara paylastirildi. equal cost multipath
+gerceklendi...
+
+p10 SAN ve WA denendi ama olmadi.
+
+p11.1 SAN calisdi, ama iyi degil. WA calismiyor.WA icin weight adjustment da sorun var
+overloaded linkler icin.Weight degistirme fonksiyonu uygun degil.
+p12 logaritmik weight degistirme fonksiyonu eklendi.SAN ve WA 7 li network icin paperdaki sonuclari verdi.
+p14 12 li network adapte edildi.12.1 ve 12.2 dahil...
+p14 de WA paperdaki sonuclari verdi(7 12.1 ve 12.2 icin....)
+p15 SAN daki yavaslik duzeltildi....
+p16 wa yeniden duzenlendi,hizi artirildi.
+p17 wa7 wa12_1 wa12_2 san7 san12_1 icin cikti alindi, sonuclar papera uygun.
+	SAL icin routedemands,findpath eklendi.
+p18 sal icin random route secme ve cost hesabi yapildi...
